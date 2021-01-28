@@ -148,6 +148,13 @@ body.home {
 	color: #323031 !important;
 }
 
+
+
+.contact-ref a{
+	text-decoration: none;
+	color: var(--default-content-color);
+}
+
 .page-content-block {
 	width: 100%;
 	margin: 0 auto;
@@ -719,3 +726,5 @@ div.scrollup:hover {
     cursor: pointer;
     height: 100%;
 }    
+
+.contacts-map { width: 600px; height:450px; }

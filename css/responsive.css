@@ -96,6 +96,7 @@
 
 /*// Экстрамалые девайсы («портретные телефоны», < 576px) */
 @media (max-width: 575.98px) { 
+	.contact-ref a { color: inherit; text-decoration: underline; }
 
 
 	.mobile-contacts-block {display: block;}
@@ -139,6 +140,8 @@
 		background-position: 0 0;
 	
 		}	
+
+		.contacts-map { width: 100%; height:400px; margin-top: 20px; }
 
 }
 
@@ -193,6 +196,8 @@
 		background-position: 0 0;
 		}	
 		
+		.contacts-map { width: 100%; height:400px; margin-top: 20px; }
+
 		
 		  /*  FUCK */
 /*
@@ -213,6 +218,7 @@ iPad portrait · width: 768px - OK
 /* // Средние девайсы («таблетки», >= 768px)  */
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
+	
 
 	.nav-container {display: block;}
 
