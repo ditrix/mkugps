@@ -1,0 +1,18 @@
+/**/
+
+
+.debug {
+	border: 1px red solid;
+}
+
+.debug-blue {
+	border: 1px blue solid;
+}
+
+.debug-green {
+	border: 1px green solid;
+}
+
+.hideit {
+	display: none;
+}

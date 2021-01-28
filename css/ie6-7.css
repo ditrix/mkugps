@@ -1,0 +1,23 @@
+.uniform-input-wrap,
+.selector, 
+.checker, 
+.button, 
+.radio, 
+.uploader,
+.button,
+.button span,
+.inline-block,
+a.more-button {
+	display: inline;
+	zoom: 1;
+}
+
+.rounded-corners {
+	behavior: url('/bitrix/templates/.default/template_set/template.1.0/js/PIE.htc');
+}
+
+.catalog-top-list-block .item-img.inline-block,
+.catalog-top-list-block .item-name.inline-block {
+	margin-top: -2px !important;
+	margin-bottom: 2px !important;
+}

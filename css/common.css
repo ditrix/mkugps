@@ -1,0 +1,17 @@
+:root {
+  --main-bg-color: #efefef;
+  --top-block-background-color: #3e2216;
+  --main-title-color: #f95500;
+  --main-subtitle-color: #201e1f;
+  --logo-background-color: #f45200; /* возможно не понадобится. сейчас лого - это изображение */
+  --main-active-ref-color: #f95500;
+  --button-background-color:#f95500;
+  --odd-block-background-color: #f2eeef;
+  --even-block-background-color: #d9d5d6;
+  --catalog-item-border-color: #c4bebe;
+  --steel-color:  #ececec;
+  --top-menu-background-color: #312f30;
+  --top-menu-separate-color: #131112;
+  --top-menu-active-color: #ff510a;
+  --footer-background-color: #f2eeef;	
+}

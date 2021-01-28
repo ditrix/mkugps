@@ -1,0 +1,297 @@
+/**/
+/* Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) { 
+/*	.catalog-top-list-block .catalog-item .item-img {
+		width: 250px;
+		height: 166px;
+		border: 1px red solid;
+	}
+
+
+	.catalog-top-list-block .catalog-item .item-img img {
+		display: block;
+		width: 50px;
+		height: 50px;
+	}
+
+*/
+
+
+}
+
+/* Малые девайсы («ландшафтные», < 768px)*/
+@media (max-width: 767.98px) { 
+/*	.catalog-top-list-block .catalog-item .item-img {
+		width: 50px;
+		height: 50px;
+		border: 1px red solid;
+	}
+
+
+	.catalog-top-list-block .catalog-item .item-img img {
+		display: block;
+		width: 50px;
+		height: 50px;
+	}
+*/
+
+
+}
+
+/* Средние девайсы («таблетки», < 992px) */
+@media (max-width: 991.98px) { 
+/*.catalog-top-list-block .catalog-item .item-img {
+	width: 100%;
+	height: 160px;
+	border: 1px red solid;
+}
+
+
+.catalog-top-list-block .catalog-item .item-img img {
+    display: block;
+	width: 100%;
+	height: auto;
+}
+
+.catalog-top-list-block .catalog-item h2 {
+	font-size: 1.3em !important;
+	line-height: 1.3em !important;
+} */
+}
+
+/* Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) { 
+
+}
+
+
+/*// Экстрамалые девайсы («портретные телефоны», < 576px) */
+@media (max-width: 575.98px) { 
+
+}
+
+
+
+
+/*------------------------------------------------ */
+
+
+/* // Большие девайсы (большие десктопы, >= 992px) */
+
+@media (max-width: 320px) { 
+	span.item-name {
+		color: red;
+		font-size: 9px;
+		line-height: 1.5;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 560px) { 
+	.copyright-block-production, .copyright-block-production a{	display: none;	font-size: 1.2em;	line-height: 1.2em;	}
+	
+}
+
+
+
+/*// Экстрамалые девайсы («портретные телефоны», < 576px) */
+@media (max-width: 575.98px) { 
+
+
+	.mobile-contacts-block {display: block;}
+	.wrap-scrollup {display: block;}
+	.nav-container {display: block;}
+
+	.head-top-block-pad {display: none;}
+
+	.copyright-block-production , .bottom-menu-block{ display: none;}
+	
+	
+	.navbar { display: block;} 
+	.top-menu-box ul.top-menu li.top-menu-item .item-href, .top-menu-box ul.top-menu li.top-menu-item .item-no-href {  display: none; }
+	.page-content-block .top-promo-block { padding: 0 0 10px 0; 	}
+
+	.head-top-block .logo-block { position: absolute; top: 0; left: 0; }
+
+	.head-spacer-inner{display: none;}
+	
+	.page-content-block img { max-width: 100%; height: auto; }	
+	
+	.head-top-block .head-spacer {
+		height: 51px;
+		width: auto;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+	}
+
+	.right-menu-box-pad {display: none;}
+	.page-sub-menu-box-pad {display: block;}	
+	
+	.footer-block {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0px;
+		width: auto;
+		height: 115px;
+		background-image: none;
+		background-color: var(--footer-background-color);
+		background-position: 0 0;
+	
+		}	
+
+}
+
+
+
+/* // Малые девайсы («ландшафтные», >= 575px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.mobile-contacts-block {display: block;}
+	.wrap-scrollup {display: block;}
+
+	.nav-container {display: block;}
+
+	.head-top-block-pad {display: none;}
+
+
+
+	.copyright-block-production , .bottom-menu-block{ display: none;}
+	
+
+	.aside-item  { height: 100px; }
+
+	
+	.navbar { display: block;} 
+	.top-menu-box ul.top-menu li.top-menu-item .item-href, .top-menu-box ul.top-menu li.top-menu-item .item-no-href {  display: none; }
+	.page-content-block .top-promo-block { padding: 0 0 10px 0; 	}
+
+	.head-top-block .logo-block { position: absolute; top: 0; left: 0; }
+
+	.head-spacer-inner{display: none;}
+	
+	.page-content-block img { max-width: 100%; height: auto; }	
+	
+	.head-top-block .head-spacer {
+		height: 51px;
+		width: auto;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+	}
+
+	.right-menu-box-pad {display: none;}
+	.page-sub-menu-box-pad {display: block;}	
+	
+	.footer-block {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0px;
+		width: auto;
+		height: 115px;
+		background-image: none;
+		background-color: var(--footer-background-color);
+		background-position: 0 0;
+		}	
+		
+		
+		  /*  FUCK */
+/*
+
+iPhone eXpensive landscape · width: 734px
+Android (Pixel 2) landscape · width: 684px
+iPhone 6-8 landscape · width: 667px
+iPhone 6-8 Plump landscape · width: 736px
+------------------
+iPad portrait · width: 768px - OK
+
+
+*/
+
+
+}
+
+/* // Средние девайсы («таблетки», >= 768px)  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+	.nav-container {display: block;}
+
+	.head-top-block-pad {display: none;}
+
+
+
+	.mobile-contacts-block {display: block;}
+
+	.copyright-block-production , .bottom-menu-block{ display: none;}
+	
+	
+	.navbar { display: none;} 
+	
+	
+	.top-menu-box {
+			width: auto;
+	}
+	.top-menu-box ul.top-menu li.top-menu-item .item-href, .top-menu-box ul.top-menu li.top-menu-item .item-no-href {  display: block; }
+	
+	.top-menu-box ul.top-menu li.top-menu-item {
+    float: left;
+    display: inline;
+    height: 58px;
+    line-height: 58px;
+    vertical-align: middle;
+    padding: 0 20px !important;
+    margin: 0 !important;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+	
+	
+	
+	.page-content-block .top-promo-block { padding: 0 0 10px 0; 	}
+
+	.head-top-block .logo-block { position: absolute; top: 0; left: 0; }
+
+	.head-spacer-inner{display: none;}
+	
+	.page-content-block img { max-width: 100%; height: auto; }	
+	
+	.head-top-block .head-spacer {
+		height: 51px;
+		width: auto;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+	}
+
+	.right-menu-box-pad {display: none;}
+	.page-sub-menu-box-pad {display: block;}	
+	
+	.footer-block {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0px;
+		width: auto;
+		height: 115px;
+		background-image: none;
+		background-color: var(--footer-background-color);
+		background-position: 0 0;
+		border: 1px green solid;
+		}	
+
+
+
+}
+
+/* // Большие девайсы (большие десктопы, >= 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.copyright-block-production, .copyright-block-production a{	display: none;	font-size: 1.2em;	line-height: 1.2em;	}
+
+}
+
+/* // Большие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) { 
+}

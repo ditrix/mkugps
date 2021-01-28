@@ -1,0 +1,57 @@
+#slideshow {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 950px;
+	height: 399px;
+	background-color: #878787;
+	overflow: hidden;
+}
+
+#slideshow ul {
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#slideshow ul li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#pagination {
+	position: absolute;
+	right: 45px;
+	bottom: 20px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#pagination li {
+	float: left;
+	margin: 0 0 0 5px;
+	overflow: hidden;
+	width: 16px;
+	height: 16px;
+	text-indent: -999px;
+}
+
+#pagination li a {
+	display: block;
+	overflow: hidden;
+	width: 16px;
+	height: 16px;
+	text-indent: -999px;
+	background: url('images/page-dots.png');
+	text-decoration: none;
+}
+
+#pagination li a.active {
+	background-position: 0 -16px;
+}
