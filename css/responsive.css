@@ -96,16 +96,18 @@
 
 /*// Экстрамалые девайсы («портретные телефоны», < 576px) */
 @media (max-width: 575.98px) { 
+
+
 	.contact-ref a { color: inherit; text-decoration: underline; }
 
 
-	.mobile-contacts-block {display: block;}
-	.wrap-scrollup {display: block;}
+	.mobile-contacts-block,
+	.wrap-scrollup,
 	.nav-container {display: block;}
 
-	.head-top-block-pad {display: none;}
-
-	.copyright-block-production , .bottom-menu-block{ display: none;}
+	.head-top-block-pad,
+	.copyright-block-production, 
+	.bottom-menu-block{ display: none;}
 	
 	
 	.navbar { display: block;} 
@@ -141,7 +143,7 @@
 	
 		}	
 
-		.contacts-map { width: 100%; height:400px; margin-top: 20px; }
+		
 
 }
 
@@ -156,6 +158,9 @@
 
 	.head-top-block-pad {display: none;}
 
+
+
+	 
 
 
 	.copyright-block-production , .bottom-menu-block{ display: none;}
@@ -196,8 +201,7 @@
 		background-position: 0 0;
 		}	
 		
-		.contacts-map { width: 100%; height:400px; margin-top: 20px; }
-
+	
 		
 		  /*  FUCK */
 /*
@@ -220,40 +224,43 @@ iPad portrait · width: 768px - OK
 
 	
 
-	.nav-container {display: block;}
+	.nav-container,
+	.mobile-contacts-block,
+	.page-sub-menu-box-pad	{display: block;}
 
-	.head-top-block-pad {display: none;}
 
 
 
-	.mobile-contacts-block {display: block;}
-
-	.copyright-block-production , .bottom-menu-block{ display: none;}
+	.head-top-block-pad,
+	.navbar,
+	.copyright-block-production, 
+	.right-menu-box-pad,
+	.head-spacer-inner,
+	.bottom-menu-block{ display: none;}
 	
 	
-	.navbar { display: none;} 
 	
 	
-	.top-menu-box {
-			width: auto;
-	}
-	.top-menu-box ul.top-menu li.top-menu-item .item-href, .top-menu-box ul.top-menu li.top-menu-item .item-no-href {  display: block; }
+	.top-menu-box { width: auto;}
+
+	.top-menu-box ul.top-menu li.top-menu-item .item-href, 
+	.top-menu-box ul.top-menu li.top-menu-item .item-no-href {  display: block; }
 	
 	.top-menu-box ul.top-menu li.top-menu-item {
-    float: left;
-    display: inline;
-    height: 58px;
-    line-height: 58px;
-    vertical-align: middle;
-    padding: 0 20px !important;
-    margin: 0 !important;
-    text-align: center;
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
+		float: left;
+		display: inline;
+		height: 58px;
+		line-height: 58px;
+		vertical-align: middle;
+		padding: 0 20px !important;
+		margin: 0 !important;
+		text-align: center;
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
 	
 	
 	
@@ -261,7 +268,7 @@ iPad portrait · width: 768px - OK
 
 	.head-top-block .logo-block { position: absolute; top: 0; left: 0; }
 
-	.head-spacer-inner{display: none;}
+	
 	
 	.page-content-block img { max-width: 100%; height: auto; }	
 	
@@ -272,8 +279,6 @@ iPad portrait · width: 768px - OK
 		background-color: #FFFFFF;
 	}
 
-	.right-menu-box-pad {display: none;}
-	.page-sub-menu-box-pad {display: block;}	
 	
 	.footer-block {
 		position: absolute;
@@ -286,9 +291,7 @@ iPad portrait · width: 768px - OK
 		background-color: var(--footer-background-color);
 		background-position: 0 0;
 		border: 1px green solid;
-		}	
-
-
+	}	
 
 }
 
