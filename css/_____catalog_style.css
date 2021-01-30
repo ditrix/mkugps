@@ -1,0 +1,174 @@
+/*
+
+стили из прошлого. в результирующем макете его не будет (из header уже исключен)
+
+*/
+.catalog-top-list-block {
+	width: 100%;
+	margin: 18px 0 0 0;
+	border-top: solid 1px #c4bebe;
+}
+
+.catalog-top-list-block .catalog-item {
+	border: solid 1px #c4bebe;
+	border-top: none;
+	vertical-align: top;
+	padding: 0;
+	line-height: normal;
+}
+
+.catalog-top-list-block .catalog-item h2 {
+	font-size: 13px !important;
+	line-height: 16px !important;
+	font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif !important;
+	text-transform: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #6b6768 !important;
+	vertical-align: middle;
+}
+
+.catalog-top-list-block .catalog-item h2 a {
+	border: solid 1px #f7f3f4;
+	display: block;
+	padding: 7px 8px;
+	color: #6b6768;
+	margin: 0;
+	text-decoration: none;
+	background-color: #f2eeef;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.catalog-top-list-block .catalog-item.even h2 a {
+	background-color: #d9d5d6;
+}
+
+.catalog-top-list-block .catalog-item .item-img {
+	width: 124px;
+	height: 83px;
+
+	border: solid 1px #FFFFFF;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+
+.catalog-top-list-block .catalog-item .item-img img {
+	display: block;
+}
+
+.catalog-top-list-block .catalog-item .item-name {
+	width: 150px;
+	vertical-align: middle;
+}
+
+.catalog-top-list-block .catalog-item .item-name:first-line {
+	color: #020001;
+	font-weight: bold;
+}
+
+.catalog-top-list-block .catalog-item h2 a:hover {
+	color: #f95500 !important;
+	background-color: #2c2829;
+	border: solid 1px #2c2829;
+}
+
+.catalog-top-list-block .catalog-item h2 a:hover .item-name:first-line {
+	color: #FFFFFF;
+}
+
+.page-content-block .workarea-catalog-column-block {
+	float: left;
+	display: inline;
+	width: 100%;
+    margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.page-content-block .workarea-catalog-column-block-pad {
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+
+
+.catalog-list-block {
+	width: 100%;
+	margin: 20px 0 0 0;
+}
+
+.catalog-list-block .catalog-item {
+	border: solid 1px #c4bebe;
+	vertical-align: top;
+	padding: 0;
+	line-height: normal;
+	width: 460px;
+	margin: 0 0 16px 0;
+}
+
+.catalog-list-block .catalog-item.odd {
+	margin-left: 26px;
+}
+
+.catalog-list-block .catalog-item h2 {
+	font-size: 14px !important;
+	line-height: 18px !important;
+	font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif !important;
+	text-transform: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #6b6768 !important;
+	vertical-align: middle;
+}
+
+.catalog-list-block .catalog-item h2 a {
+	border: solid 1px #f7f3f4;
+	display: block;
+	padding: 7px 8px;
+	color: #6b6768;
+	margin: 0;
+	text-decoration: none;
+	background-color: #f2eeef;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #d9d5d6;
+}
+
+.catalog-list-block .catalog-item.even h2 a {
+}
+
+.catalog-list-block .catalog-item .item-img {
+	width: 160px;
+	height: 120px;
+
+	border: solid 1px #FFFFFF;
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+}
+
+.catalog-list-block .catalog-item .item-img img {
+	display: block;
+}
+
+.catalog-list-block .catalog-item .item-name {
+	width: 260px;
+	vertical-align: top;
+	margin: 2px 0 0 0;
+}
+
+.catalog-list-block .catalog-item .item-name:first-line {
+	color: #020001;
+	font-weight: bold;
+	font-size: 16px !important;
+}
+
+.catalog-list-block .catalog-item h2 a:hover {
+	color: #f95500 !important;
+	background-color: #2c2829;
+	border: solid 1px #2c2829;
+}
+
+.catalog-list-block .catalog-item h2 a:hover .item-name:first-line {
+	color: #FFFFFF;
+}

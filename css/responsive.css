@@ -97,7 +97,7 @@
 /*// Экстрамалые девайсы («портретные телефоны», < 576px) */
 @media (max-width: 575.98px) { 
 
-
+	.map-container-4
 	.contact-ref a { color: inherit; text-decoration: underline; }
 
 
@@ -143,7 +143,42 @@
 	
 		}	
 
-		
+	.gps-button {display: block;}		
+
+/*  TODO:  4 vertical;
+.catalog-container .catalog-item h2 {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif !important;
+    text-transform: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #6b6768 !important;
+    vertical-align: middle;
+}
+.catalog-container .catalog-item h2 a {
+    border: solid 1px #f7f3f4;
+    display: block;
+    padding: 7px 8px;
+    color: #6b6768;
+    margin: 0;
+    text-decoration: none;
+    background-color: #f2eeef;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 100%;
+}
+
+.catalog-container .catalog-item .item-img {
+    width: 124px;
+    height: 83px;
+    border: solid 1px #FFFFFF;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+*/
+
 
 }
 
@@ -158,9 +193,40 @@
 
 	.head-top-block-pad {display: none;}
 
+/*	160 120*/
+
+/*
+	.catalog-container .catalog-item .item-img { width: 100px; height: 75px; }
+	 .catalog-container .catalog-item h2 { font-size: 8px !important; line-height: 8px !important; }
+
+*/
+
+.catalog-container .catalog-item .item-img {
+    width: 124px;
+    height: 83px;
+    border: solid 1px #FFFFFF;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.catalog-container .catalog-item h2 a {
+    border: solid 1px #f7f3f4;
+    display: block;
+    padding: 7px 8px;
+    color: #6b6768;
+    margin: 0;
+    text-decoration: none;
+    background-color: #f2eeef;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 100%;
+}
 
 
-	 
+.catalog-container .catalog-item .item-name {
+    width: 100%;
+    vertical-align: top;
+}
 
 
 	.copyright-block-production , .bottom-menu-block{ display: none;}
@@ -201,7 +267,7 @@
 		background-position: 0 0;
 		}	
 		
-	
+	.gps-button {display: block;}		
 		
 		  /*  FUCK */
 /*
@@ -291,7 +357,39 @@ iPad portrait · width: 768px - OK
 		background-color: var(--footer-background-color);
 		background-position: 0 0;
 		border: 1px green solid;
-	}	
+	}
+	.gps-button {display: block;}	
+
+
+
+	.catalog-container .catalog-item .item-img {
+    width: 124px;
+    height: 83px;
+    border: solid 1px #FFFFFF;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+
+.catalog-container .catalog-item h2 a {
+    border: solid 1px #f7f3f4;
+    display: block;
+    padding: 7px 8px;
+    color: #6b6768;
+    margin: 0;
+    text-decoration: none;
+    background-color: #f2eeef;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.catalog-container .catalog-item .item-name {
+    width: 100%;
+    vertical-align: top;
+}
+		
 
 }
 

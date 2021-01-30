@@ -728,9 +728,6 @@ div.scrollup:hover {
 }    
 
 
-
-
-
 .map-container-4{
 	overflow:hidden;
 	padding-bottom:56.25%;
@@ -744,3 +741,4 @@ div.scrollup:hover {
 	width:100%;
 	position:absolute;
 }
+.gps-button { display: none; }

@@ -76,6 +76,8 @@ div.button span {
 	-webkit-font-smoothing: antialiased;
 }
 
+
+
 .selector, 
 .radio, 
 .checker, 
@@ -420,3 +422,5 @@ div.button.reset span {
 	overflow: hidden;
 	position: absolute;
 }
+
+div.button a { text-decoration: none;color: white; } 
