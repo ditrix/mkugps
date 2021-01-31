@@ -145,6 +145,50 @@
 
 	.gps-button {display: block;}		
 
+
+.catalog-container .catalog-item {
+	line-height: normal;
+}
+
+	.catalog-container .catalog-item .item-img {
+    width: 80px;
+    height: 55px;
+    border: solid 1px #FFFFFF;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+
+.catalog-container .catalog-item h2 {
+    font-size: 12px !important;
+    line-height: 16px !important;
+
+}
+
+.catalog-container .catalog-item h2 a {
+    border: solid 1px #f7f3f4;
+    display: block;
+    padding: 7px 8px;
+    color: #6b6768;
+    margin: 0;
+    text-decoration: none;
+    background-color: #f2eeef;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.catalog-container .catalog-item .item-name {
+    width: 100%;
+    vertical-align: top;
+}
+
+	.catalog-cell {
+		background-color: var(--catalog-background-color);
+		border: 1px var(--catalog-item-border-color) solid;
+}		
+
 /*  TODO:  4 vertical;
 .catalog-container .catalog-item h2 {
     font-size: 12px !important;
@@ -193,6 +237,13 @@
 
 	.head-top-block-pad {display: none;}
 
+	.catalog-cell {
+		background-color: var(--catalog-background-color);
+		border: 1px var(--catalog-item-border-color) solid;
+		height: 100px;
+
+	}
+
 /*	160 120*/
 
 /*
@@ -202,11 +253,19 @@
 */
 
 .catalog-container .catalog-item .item-img {
-    width: 124px;
-    height: 83px;
+    width: 90px;
+    height: 75px;
     border: solid 1px #FFFFFF;
-    margin: 0 10px 0 0;
+    margin: 0 5px 0 0;
     vertical-align: middle;
+}
+
+
+
+.catalog-container .catalog-item h2 {
+    font-size: 12px !important;
+    line-height: 16px !important;
+
 }
 
 .catalog-container .catalog-item h2 a {
@@ -223,6 +282,8 @@
 }
 
 
+
+
 .catalog-container .catalog-item .item-name {
     width: 100%;
     vertical-align: top;
@@ -235,6 +296,8 @@
 	.aside-item  { height: 100px; }
 
 	
+
+
 	.navbar { display: block;} 
 	.top-menu-box ul.top-menu li.top-menu-item .item-href, .top-menu-box ul.top-menu li.top-menu-item .item-no-href {  display: none; }
 	.page-content-block .top-promo-block { padding: 0 0 10px 0; 	}
@@ -268,7 +331,14 @@
 		}	
 		
 	.gps-button {display: block;}		
-		
+
+	.catalog-cell {
+		background-color: var(--catalog-background-color);
+		border: 1px var(--catalog-item-border-color) solid;
+		height: 110px;
+	}
+
+
 		  /*  FUCK */
 /*
 
@@ -295,7 +365,11 @@ iPad portrait · width: 768px - OK
 	.page-sub-menu-box-pad	{display: block;}
 
 
-
+	.catalog-cell {
+		background-color: var(--catalog-background-color);
+		border: 1px var(--catalog-item-border-color) solid;
+		height: 110px;
+	}
 
 	.head-top-block-pad,
 	.navbar,

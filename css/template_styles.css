@@ -703,29 +703,6 @@ div.scrollup:hover {
 }
 
 
-.aside-item h2 {
-    font-size: 10px !important;
-    line-height: 16px !important;
-    font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif !important;
-    text-transform: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    color: #6b6768 !important;
-    vertical-align: middle;}
-
-
-.aside-item h2 a {
-    border: solid 1px #f7f3f4;
-    display: block;
-    padding: 7px 8px;
-    color: #6b6768;
-    margin: 0;
-    text-decoration: none;
-    background-color: #f2eeef;
-    vertical-align: middle;
-    cursor: pointer;
-    height: 100%;
-}    
 
 
 .map-container-4{
