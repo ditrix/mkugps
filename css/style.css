@@ -158,6 +158,7 @@
 
 .price-list-block .price-item {
 	margin: 5px 0 10px 0;
+	font-size: 1.3em;
 }
 
 .price-list-block .price-item a {
@@ -462,21 +463,15 @@ table.add-table td.add-td-left {
 }
 
 .catalog-container .catalog-item {
-	/*border: solid 1px #c4bebe;*/
-	border: 1px green solid;
 	vertical-align: top;
 	padding: 0;
 	line-height: normal;
-	/*width: 460px;*/
-	/*margin: 0 0 16px 0;*/
 	padding: 5px;
 }
 
-/*.catalog-container .catalog-item.odd {
-	margin-left: 26px;
-}
-*/
+
 .catalog-container .catalog-item h2 {
+	border: solid 1px #c4bebe;
 	font-size: 14px !important;
 	line-height: 18px !important;
 	font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif !important;
@@ -490,7 +485,7 @@ table.add-table td.add-td-left {
 .catalog-container .catalog-item h2 a {
 	border: solid 1px #f7f3f4;
 	display: block;
-	padding: 7px 8px;
+	padding: 10px 8px;
 	color: #6b6768;
 	margin: 0;
 	text-decoration: none;
@@ -508,13 +503,15 @@ table.add-table td.add-td-left {
 	height: 120px;
 
 	/*border: solid 1px #FFFFFF;*/
-	margin: 0 5px 0 0;
+	margin: 0 10px 0 0;
+	/*padding: 5px 0px;*/
 	vertical-align: middle;
 }
 
 .catalog-container .catalog-item .item-img img {
 	display: block;
 	width: 100%;
+
 }
 
 .catalog-container .catalog-item .item-name {
@@ -542,4 +539,5 @@ table.add-table td.add-td-left {
 
 .catalog-cell {
 /*	height: 100px;*/
+background-color: var(--light-gray-color);
 }

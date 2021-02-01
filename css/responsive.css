@@ -13,13 +13,18 @@
 
 @media (min-width: 320px) and (max-width: 560px) { 
 	.copyright-block-production, .copyright-block-production a{	display: none;	font-size: 1.2em;	line-height: 1.2em;	}
-	
+	.catalog-container .catalog-item .item-name:first-line { font-weight: normal; font-size: 0.5em; }
+
+	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
+
 }
 
 
 
 /*// Экстрамалые девайсы («портретные телефоны», < 576px) */
 @media (max-width: 575.98px) { 
+
+	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
 
 	.map-container-4
 	.contact-ref a { color: inherit; text-decoration: underline; }
@@ -70,7 +75,16 @@
 	.gps-button {display: block;}		
 
 
-	.catalog-container .catalog-item { line-height: normal; padding: 0px; margin-bottom: 5px; }
+
+	.workarea-catalog-column-block-pad h1 { font-size: 24px; }
+	.price-list-block .title { font-size: 22px;}
+	.price-list-block .subtitle { font-size: 18px;}
+/*
+120 90
+110 82
+*/
+
+	.catalog-container .catalog-item { line-height: normal; padding: 3px; margin-bottom: 5px; }
 
 	.catalog-container .catalog-item .item-img {
 	    width: 100px;
@@ -109,6 +123,9 @@
 
 /* // Малые девайсы («ландшафтные», >= 575px) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+
+	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
+	
 	.mobile-contacts-block {display: block;}
 	.wrap-scrollup {display: block;}
 
@@ -130,10 +147,11 @@
 }
 
 .catalog-container .catalog-item {
-	border: solid 1px #c4bebe;
+	/*border: solid 1px #c4bebe;*/
+	border: none;
 	border-top: none;
 	vertical-align: top;
-	padding: 0;
+	padding: 3px;
 	line-height: normal;
 }
 
@@ -144,7 +162,7 @@
 	text-transform: none !important;
 	margin: 0 !important;
 	padding: 0 !important;
-	color: #6b6768 !important;
+	color: #000 !important;
 	vertical-align: middle;
 }
 
@@ -152,7 +170,7 @@
 	border: solid 1px #f7f3f4;
 	display: block;
 	padding: 0px;
-	color: #6b6768;
+	color: #000;
 	margin: 0;
 	text-decoration: none;
 	background-color: #f2eeef;
@@ -165,9 +183,9 @@
 
 .catalog-container .catalog-item .item-img {
 	width: 100px;
-	height: 67px;
+	height: 80px;
 
-	border: solid 1px #FFFFFF;
+/*	border: solid 1px #FFFFFF;*/
 	margin-right: 5px;
 	vertical-align: middle;
 }
