@@ -62,7 +62,12 @@
 </head>
 
 <body class="inner">
+
+
 <div class="container-fluid">
+
+
+
 
 <div id="panel"></div>
 <span class="noindex"><!--[CDATA[<noindex-->]]&gt;</span>
@@ -87,9 +92,6 @@
 				<div class="clear"></div>
 				</div>
 			</div>
-			
-
-			
 			<!-- #top-menu-->
 			<div class="top-menu-block" >
 				<div class="top-menu-block-pad">
@@ -148,6 +150,7 @@
 			</div>
 	
 			<div class="mobile-contacts-block">
+				<div class="row">
 					<div class="mobile-contact-row container">
 					<div class="row">
 						<div class="col-6 text-center mobile-contact-content"><a href="tel:+380635622904"><span>+38 063 5622904</span></a></div>
@@ -158,6 +161,7 @@
 						<div class="col-6 text-center mobile-contact-content"><span class="email inline-block"><a href="mailto:ukrgazdru@ukr.net">ukrgazdru@ukr.net</span></a></div>
 					</div>	
 				</div>
+
 			</div>
 			
 		</div>
@@ -211,23 +215,36 @@
 						</div>
 						<p>Тел./Факс: +3 8 0626742496</p>
 						<section  class="contact-ref">
-						<p>
-						  	<span style="text-align: right;">Моб.:&nbsp;&nbsp;</span>
-						  		<img src="images/lifecell-16.png" width="16" height="16" border="0">
-						  		<a href="tel:+380635622904"><span style="text-align: right;"> +38 063 5622904</span></a>&nbsp;&nbsp;
-						  		<img src="images/vodafone-16.png" width="16" height="16" border="0">
-						  		<a href="tel:+380502913802"><span style="text-align: right;"> +38 050 2913802;</span></a>&nbsp;&nbsp;
-						  		<img src="images/kyivstar-16.png" width="16" height="16" border="0">
-						  		<a href="tel:+380969474818"><span style="text-align: right;"> +38 096 9474818</span></a>&nbsp;&nbsp;
+						<div class="row">
+							<div class="col-log-10 col-md-10 col-sm-11 col-sx-11">
+								<div class="row">
+									<div class="col-sm-4">
+										<img src="images/lifecell-16.png" width="16" height="16" border="0">
+										<a href="tel:+380635622904"><span style="text-align: right;"> +38 063 5622904</span></a>
+									</div>
+									<div class="col-sm-4">
+										<img src="images/vodafone-16.png" width="16" height="16" border="0">
+										<a href="tel:+380502913802"><span style="text-align: right;"> +38 050 2913802</span></a>
+									</div>	
+									<div class="col-sm-4">
+										<img src="images/kyivstar-16.png" width="16" height="16" border="0">
+										<a href="tel:+380969474818"><span style="text-align: right;"> +38 096 9474818</span></a>
+									</div>	
+								</div>
+								<div style="text-align: left;">
+									<br/>
+									E-mail:&nbsp;<span class="cpnemail"><a id="bxid_912752" href="mailto:ukrgazdru@ukr.net">ukrgazdru@ukr.net</a></span>
+								</div>
+								</div>
+							<div class="col-log-2 col-md-2 col-sm-1 col-sx-1">
+							<button class="qr-code-button" type="button"  style="padding: 0; border: 0; margin-left: -20px;" data-toggle="modal" data-target="#exampleModalCenter">
+								<img src="images/qr_button.png" alt="Контакты" title="Нажмите для увеличения" width="100" height="100">
+							</button>
 
-						  <span>					  
-
-						
-						 </p>
-						
-						<div style="text-align: left;">
-							E-mail:&nbsp;<span class="cpnemail inline-block"><a id="bxid_912752" href="mailto:ukrgazdru@ukr.net">ukrgazdru@ukr.net</a></span>
+							
+							</div>
 						</div>
+		
 						</section>
 						<p></p>
 						
@@ -239,9 +256,7 @@
 
  <!--Google map-->
     <div id="map-container-google-4" class="z-depth-1-half map-container-4" style="height: 500px">
-	<!--
-      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
-	  -->
+	
 	  <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d5275.639449271867!2d37.5082953550893!3d48.6132939395031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d48.6371033!2d37.5396055!4m3!3m2!1d48.6177201!2d37.4912725!5e0!3m2!1sru!2sua!4v1523391243953" style="border: none;" allowfullscreen=""  frameborder="0"></iframe>
 
     </div>						
@@ -255,10 +270,29 @@
 			</div>
 			<!-- #content --> 
 
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade qr-modal-dialog" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" style="width: 400px; height: 420px;">
+      
+	  <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="margin-top: 0px;">
+        <img src="images/qr_main.gif"  />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- #eof Modal -->
 
 
 			<!-- <aside> -->
-				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 debug-green">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 					<!-- right-menu-box -->
 		
 					<div class="row">

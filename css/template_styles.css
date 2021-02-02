@@ -641,7 +641,9 @@ div.scrollup:hover {
 	height: 85px;
 }
 
-
+.qr-code-container {
+	display:block;
+}
 /*hamburger menu*/
 
 /*.mobile-container {
@@ -719,3 +721,10 @@ div.scrollup:hover {
 	position:absolute;
 }
 .gps-button { display: none; }
+
+.qr-code-button {display: block;}
+
+.modal-body img {
+	display: block;
+	margin: -40px auto 0px;
+}

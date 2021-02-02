@@ -16,7 +16,7 @@
 	vertical-align: middle;
 	}
 	.catalog-container .catalog-item .item-name:first-line { font-weight: normal; font-size: 0.3em;}
-
+	.qr-code-button {display:none;}
 }
 
 
@@ -29,7 +29,7 @@
 		height: 50px !important;
 	}
 	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
-
+	.qr-code-button {display:none;}
 }
 
 
@@ -128,7 +128,7 @@
 
 	.catalog-cell { background-color: var(--catalog-background-color); border: 1px var(--catalog-item-border-color) solid; }		
 
-
+	.qr-code-button {display:none;}
 
 }
 
@@ -184,6 +184,7 @@
 	vertical-align: middle;
 	cursor: pointer;
 	height: 100%;
+	
 }
 
 
@@ -243,7 +244,7 @@
 		
 	.gps-button {display: block;}		
 
-
+	.qr-code-button {display:none;}
 
 
 }
