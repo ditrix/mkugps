@@ -774,6 +774,9 @@ div.scrollup:hover {
 	margin: 0;
 	padding: 0;
 }
+
+.uniform-input-wrap  input{ max-width: 500px;}
+
 /*
 .product-list-block-pad ul.right-menu li.right-menu-item,
 .product-list-block-pad ul.right-menu li.right-menu-item a,

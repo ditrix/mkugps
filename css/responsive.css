@@ -17,10 +17,28 @@
 	}
 	.catalog-container .catalog-item .item-name:first-line { font-weight: normal; font-size: 0.3em;}
 	.qr-code-button {display:none;}
+
+	.add_form-block-fix  .add-table { width: 250px; }
+
+	.add_form-block-fix  .add-table { width: 280px; }
+	.uniform-input-wrap  input{ max-width: 200px;}
+	
+
+
+
 }
 
 
+
 @media (min-width: 320px) and (max-width: 560px) { 
+
+	.add_form-block-fix  .add-table { width: 320px; }
+	
+	.uniform-input-wrap  input{ max-width: 280px;}
+
+	.add_form-block-fix form {   width: 280px;}
+	
+
 	.copyright-block-production, .copyright-block-production a{	display: none;	font-size: 1.2em;	line-height: 1.2em;	}
 	.catalog-container .catalog-item .item-name { font-size: 1em !important;}
 	.catalog-container .catalog-item .item-name:first-line { font-weight: normal; font-size: 1.2em !important; }
@@ -30,6 +48,9 @@
 	}
 	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
 	.qr-code-button {display:none;}
+	
+		.add_form-block-fix textarea {max-width: 250px; }
+
 }
 
 
@@ -139,20 +160,16 @@
 		font-weight: normal;
 	}
 
-	.add_form-block-fix form {
-		width: 300px;
-		background:  lightblue;
-	}
 
 	.table.add-table {
-		width: 300px;
+		width: 300px !important;
+		background: red;
 	}
 
-.add_form-block-fix textarea {
-    width: 50px;
-    height: 50px;
-    max-width: 50px;
-	}
+
+	.uniform-input-wrap  input{ max-width: 250px;}
+	.add_form-block-fix textarea {max-width: 250px; }
+
 
 	
 }
