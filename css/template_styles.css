@@ -277,7 +277,7 @@ a.more-button:hover {
  components templates styles
 -------------------------------------------*/
 
-.home .aside_title,
+.home .aside_title, .home-title,
 .inner .aside_title {
 	text-transform: uppercase;
 	color: var(--main-title-color);
@@ -301,7 +301,10 @@ a.more-button:hover {
 	margin: 0;
 }
 
+.home-title {	text-align: center; }
 
+
+.home-about-block h3 { color: var(--main-title-color);}
 
 /*
 * projectkit:site.tree_menu - template.1.0.top

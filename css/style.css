@@ -4,14 +4,16 @@
 }
 
 .home-page-block h1 {
-	color: #f95500;
-	font-size: 16px;
-	line-height: 20px;
+	color: var(--main-title-color);
+	font-size: 1.4em;
+	line-height: 1;
 	padding: 15px 0 0 0;
 	margin: 0;
 	font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif;
 	text-transform: none;
 }
+
+.home-page-block h2 { color: black; font-size: 22px; line-height: 1.3; margin-top: 5px; }
 
 .home-page-block .home-contacts-block p {
 	margin: 0 0 17px 0;
