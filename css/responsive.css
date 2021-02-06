@@ -23,13 +23,18 @@
 	.add_form-block-fix  .add-table { width: 280px; }
 	.uniform-input-wrap  input{ max-width: 200px;}
 	
-
+	.home-page-block h1 {font-size: 1.2em; line-height: 1; }
 
 }
 
 
 
 @media (min-width: 320px) and (max-width: 560px) { 
+
+	.home-page-block h1 {font-size: 1.2em; line-height: 1; }
+
+
+
 
 	.add_form-block-fix  .add-table { width: 320px; }
 	
@@ -61,6 +66,9 @@
 /*// Экстрамалые девайсы («портретные телефоны», < 576px) */
 @media (max-width: 575.98px) { 
 
+
+
+	
 	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
 
 	.map-container-4
@@ -184,6 +192,8 @@
 /* // Малые девайсы («ландшафтные», >= 575px) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
+
+
 	.price-list-block .price-item { margin: 5px 0px;  font-size: 0.9em;	}
 	
 	.mobile-contacts-block {display: block;}
@@ -196,6 +206,19 @@
 	.catalog-cell { background-color: var(--catalog-background-color); border: 1px var(--catalog-item-border-color) solid; height: auto;}
 
 	
+.catalog-top-list-block .catalog-item .item-img {	
+	width: 100px;
+	height: 83px;
+	border: solid 1px #FFFFFF;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+
+.catalog-top-list-block .catalog-item .item-img img {
+	width: 100px !important;
+	height: 83px !important;
+	display: block;
+}
 	
 
 
@@ -233,6 +256,13 @@
 	height: 100%;
 	
 }
+
+table.table th {
+		font-size: 0.8em !important;
+		font-weight: normal;
+	
+	}
+
 
 
 
@@ -309,7 +339,6 @@
 /* // Средние девайсы («таблетки», >= 768px)  */
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
-	
 
 	.nav-container,
 	.mobile-contacts-block,

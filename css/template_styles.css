@@ -230,6 +230,7 @@ body.home {
 -------------------------------------------*/
 
 a.more-button {
+	text-align: center;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -237,9 +238,9 @@ a.more-button {
 	background-color: var(--button-background-color);
 	font-family: Impact, Charcoal, sans-serif;
 	font-size: 15px;
-	line-height: 33px;
+	line-height: 1.2;
 	vertical-align: middle;
-	padding: 0 9px;
+	padding: 9px;
 	margin: 16px;
 }
 
@@ -804,5 +805,11 @@ div.scrollup:hover {
 	color: #f95500 !important;
 }
 */
+
+/*
 .top-baner  { display: none; }
 .top-slider { display: block; }
+*/
+
+.top-baner  { display: block; }
+.top-slider { display: none; }
