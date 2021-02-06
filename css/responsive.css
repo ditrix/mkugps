@@ -25,7 +25,6 @@
 	
 
 
-
 }
 
 
@@ -50,6 +49,10 @@
 	.qr-code-button {display:none;}
 	
 		.add_form-block-fix textarea {max-width: 250px; }
+
+	.top-baner  { display: block; }
+	.top-slider { display: none; }
+
 
 }
 
@@ -171,6 +174,8 @@
 	.add_form-block-fix textarea {max-width: 250px; }
 
 
+	.top-baner  { display: block; }
+	.top-slider { display: none; }
 	
 }
 
@@ -295,6 +300,9 @@
 		font-weight: normal;
 		font-size: 0.95em;
 	}
+	
+	.top-baner  { display: block; }
+	.top-slider { display: none; }
 
 }
 
@@ -408,6 +416,8 @@
 }
 		
 
+	.top-baner  { display: block; }
+	.top-slider { display: none; }
 }
 
 /* // Большие девайсы (большие десктопы, >= 992px) */

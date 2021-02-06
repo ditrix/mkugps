@@ -800,3 +800,5 @@ div.scrollup:hover {
 	color: #f95500 !important;
 }
 */
+.top-baner  { display: none; }
+.top-slider { display: block; }
