@@ -1,0 +1,73 @@
+<html>
+<head>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!-- https://itchief.ru/bootstrap/image-gallery -->
+<!-- http://fancyapps.com/fancybox/3/docs/#introduction -->
+
+
+<style>
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+
+        .thumb {
+            padding: 5px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<ul>
+
+					<!-- <li class="thumb"><a data-fancybox="gallery" href="1b.jpg"><img src="1s.jpg"></a></li> -->
+					<!-- <li class="thumb"><a data-fancybox="gallery" href="2b.jpg"><img src="2s.jpg"></a></li> -->
+					<!-- <li class="thumb"><a data-fancybox="gallery" href="3b.jpg"><img src="3s.jpg"></a></li> -->
+					
+<li class="thumb"><a data-fancybox="gallery" href="upload/IMG_0637-1.jpg"><img src="images/IMG_0637-1.jpg"></a></li>
+<li class="thumb"><a data-fancybox="gallery" href="upload/IMG_0656-1.jpg"><img src="images/IMG_0656-1.jpg"></a></li>
+<li class="thumb"><a data-fancybox="gallery" href="upload/IMG_0658-1.jpg"><img src="images/IMG_0658-1.jpg"></a></li>
+<li class="thumb"><a data-fancybox="gallery" href="upload/IMG_0660-1.jpg"><img src="images/IMG_0660-1.jpg"></a></li>	
+					
+				</ul>	
+			</div>
+			<div class="col-2"></div>
+
+
+		</div>
+
+
+	</div>
+
+<script>
+$('[data-fancybox="gallery"]').fancybox({
+	thumbs : {
+		autoStart : false
+	},
+	buttons : ['close']
+});
+</script>
+
+
+
+</body>
+</html>
