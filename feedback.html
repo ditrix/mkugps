@@ -197,7 +197,182 @@
 					<div class="workarea-column-block">
 					
 						<div class="workarea-column-block-pad"> 
-							<h1>раздел в разработке</h1>
+												<h1>Форма обратной связи</h1>
+
+
+<form name="iblock_add" action="#order-form" method="post" enctype="multipart/form-data">
+<input type="hidden" name="sessid" id="sessid" value="726ddc02aa7ddcb586eca79a3a59460d">							
+  <div class="mb-3">
+    <label for="fosName" class="form-label">Ваше имя:<span class="starrequired">*</span></label>
+    <input type="text" class="form-control" id="fosName" aria-describedby="emailHelp" required>
+  </div>
+  <div class="mb-3">
+    <label for="fosEmail" class="form-label">E-mail:<span class="starrequired">*</span></label>
+    <input type="text" class="form-control" id="fosEmail" required >
+  </div>
+  <div class="mb-3">
+    <label for="fosTel" class="form-label">Контактный телефон</label>
+    <input type="tel" class="form-control" id="fosTel">
+  </div>
+ <div class="mb-3">
+    <label for="fosComment" class="form-label">Комментарий: </label>
+    <textarea class="form-control" id="fosComment"></textarea>
+  </div>
+
+<!-- https://itchief.ru/lessons/php/how-to-install-recaptcha-on-website reCapcha от гугл -->
+
+	<div class="mb-3">
+		<label for="fosCapcha" class="form-label">Защита от автоматического заполнения</label>
+		<div>
+			<input type="hidden" name="captcha_sid" value="02827757906ac1ebadb8ec21f46e8c28">
+			<img src="images/captcha.jpeg" alt="" width="180" height="40">
+		</div>
+	</div>	
+	<div class="mb-3">
+		<label for="fosCapcha" class="form-label">Введите слово с картинки: <span class="starrequired">*</span></label>
+		<input class="form-control inputtext inputcaptcha req-string text" type="text" name="captcha_word" size="25" maxlength="50" style="width: 200px;">
+	</div>	
+
+<!-- 
+<td class="add-td-left">Введите слово с картинки: <span class="starrequired">*</span></td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+												<div class="uniform-input-wrap">
+													<input class="inputtext inputcaptcha req-string text" type="text" name="captcha_word" size="25" maxlength="50">
+
+
+
+<tr>
+											<td class="add-td-right">
+											<b>Защита от автоматического заполнения</b>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+											<input type="hidden" name="captcha_sid" value="02827757906ac1ebadb8ec21f46e8c28">
+											<img src="images/captcha.jpeg" alt="" width="180" height="40">
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">Введите слово с картинки: <span class="starrequired">*</span></td>
+										</tr>
+
+ -->
+
+  <button type="submit" class="inputsubmit validate-button">Отправить</button>
+
+  <div class="button" style="user-select: none;">
+											<span>Отправить<input class="inputsubmit validate-button" type="submit" name="iblock_submit" value="Отправить" style="opacity: 0;"></span>
+											</div>
+</form>						
+
+
+					<div class="add_form-block-fix">
+						<div class="add_form-block-pad">
+							<div class="add_form-block-fix">
+
+								<form name="iblock_add" action="#order-form" method="post" enctype="multipart/form-data">
+									<input type="hidden" name="sessid" id="sessid" value="726ddc02aa7ddcb586eca79a3a59460d">
+
+
+
+
+									<table class="add-table" cellspacing="0">
+									<tbody>
+
+										<tr>
+											<td class="add-td-left">
+												<div class="add-td-caption">Ваше имя: <span class="starrequired">*</span></div>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-right">
+												<div class="uniform-input-wrap">
+												<input name="FIELDS[NAME][0]" maxlength="255" class="inputtext req-string text" type="text" size="60">
+												</div><br>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+												<div class="add-td-caption">E-mail: <span class="starrequired">*</span></div>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-right">
+												<div class="uniform-input-wrap">
+												<input name="FIELDS[9][0]" class="inputtext req-email text" type="text" size="30">
+												</div>
+												<br>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+												<div class="add-td-caption">Контактный телефон: </div>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-right">
+												<div class="uniform-input-wrap">
+													<input name="FIELDS[10][0]" class="inputtext text" type="text" size="30">
+												</div>
+												<br>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+												<div class="add-td-caption">Комментарий: </div>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-right">
+												<textarea class="inputtextarea uniform" name="FIELDS[PREVIEW_TEXT][0]" cols="30" rows="5"></textarea>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-right">
+											<b>Защита от автоматического заполнения</b>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+											<input type="hidden" name="captcha_sid" value="02827757906ac1ebadb8ec21f46e8c28">
+											<img src="images/captcha.jpeg" alt="" width="180" height="40">
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-left">Введите слово с картинки: <span class="starrequired">*</span></td>
+										</tr>
+										<tr>
+											<td class="add-td-left">
+												<div class="uniform-input-wrap">
+													<input class="inputtext inputcaptcha req-string text" type="text" name="captcha_word" size="25" maxlength="50">
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td class="add-td-right">
+											<div class="errorDiv1"></div><br>
+											<div class="button" style="user-select: none;">
+											<span>Отправить<input class="inputsubmit validate-button" type="submit" name="iblock_submit" value="Отправить" style="opacity: 0;"></span>
+											</div>
+											</td>
+										</tr>
+										</tbody>
+									</table>
+
+								</form>
+								<div class="required_fields_style">
+									<span class="starrequired">*</span> — поля, обязательные для заполнения
+								</div>
+							</div>
+							<!-- add_form-block-fix -->
+							
+						</div>
+					</div>
+
+					<div class="clear"></div>
+				
 
 						</div>
 						<!-- #workarea-column-block-pad -->	
@@ -217,13 +392,13 @@
 					<div class="col-12">
 							<div class="right-menu-box-pad">
 								<ul class="right-menu">
-									<li class="right-menu-item item-active">
+									<li class="right-menu-item">
 										<a href="about.html">
 											<span class="item-no-href">Контактная информация</span>
 										</a>	
 									</li>
 									<li class="right-menu-item-sep">&nbsp;</li>
-									<li class="right-menu-item">
+									<li class="right-menu-item item-active">
 										<a href="feedback.html">
 											<span class="item-href">Обратная связь</span>
 										</a>
