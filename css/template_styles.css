@@ -649,6 +649,10 @@ div.scrollup:hover {
 .qr-code-container {
 	display:block;
 }
+
+
+.order-product-form h2 { color: var(--main-title-color); }
+
 /*hamburger menu*/
 
 /*.mobile-container {
