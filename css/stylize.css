@@ -331,6 +331,7 @@ textarea.uniform.disabled {
 /********* button */
 
 div.button {
+	border-radius: 5px;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;

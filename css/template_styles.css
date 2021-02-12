@@ -230,6 +230,8 @@ body.home {
 -------------------------------------------*/
 
 a.more-button {
+		border-radius: 5px;
+
 	text-align: center;
 	display: inline-block;
 	text-decoration: none;
