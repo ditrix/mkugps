@@ -268,12 +268,20 @@
 }
 
 .rewards-top-list-block .item-name {
-	width: 350px;
+	/*width: 350px;*/
 	margin: 10px 0 0 30px;
 	padding: 0;
 	font-weight: bold;
-	color: #000000;
+	color: var(--label-color);
 }
+
+.rewards-content {
+	text-align: left;
+	padding: 5px;
+	font-size: 1.2em;
+	color: var(--label-color);
+}
+
 
 #fancybox-outer {
 	padding: 10px;

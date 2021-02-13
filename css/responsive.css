@@ -25,11 +25,19 @@
 	
 	.home-page-block h1 {font-size: 1.2em; line-height: 1; }
 
+	
+	.rewards-content { text-align: center; }
+
+
 }
 
 
 
 @media (min-width: 320px) and (max-width: 560px) { 
+
+
+
+
 
 	.home-page-block h1 {font-size: 1.2em; line-height: 1; }
 
@@ -57,6 +65,9 @@
 
 	.top-baner  { display: block; }
 	.top-slider { display: none; }
+
+
+	.rewards-content { text-align: center; }
 
 
 }
@@ -185,6 +196,9 @@
 	.top-baner  { display: block; }
 	.top-slider { display: none; }
 	
+	.rewards-content { text-align: center; }
+
+
 }
 
 
@@ -334,6 +348,9 @@ table.table th {
 	.top-baner  { display: block; }
 	.top-slider { display: none; }
 
+	
+
+
 }
 
 /* // Средние девайсы («таблетки», >= 768px)  */
@@ -447,6 +464,9 @@ table.table th {
 
 	.top-baner  { display: block; }
 	.top-slider { display: none; }
+
+	
+
 }
 
 /* // Большие девайсы (большие десктопы, >= 992px) */
